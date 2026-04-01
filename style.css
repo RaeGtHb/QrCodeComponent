@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Figtree', sans-serif;
+    /* font-size: 15px; */
+}
+
+body {
+    height: 900px;
+    width: 1440px;
+}
+
+body, main, .imgCard, .titleCard, .subTCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 620px;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: 1fr 100px 100px;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.imgCard img {
+    border-radius: 10px;
+}
+
+.titleCard h1 {
+    font-weight: 700;
+}
+
+.subTCard h1 {
+    font-weight: 500;
+}
+
+.attribution {
+    font-size: 11px; text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+}
